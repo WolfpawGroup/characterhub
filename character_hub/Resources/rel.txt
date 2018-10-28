@@ -1,0 +1,38 @@
+############################################
+#                                          #
+#  WolfPaw Character Hub - relation types  #
+#                   v1.01                  #
+#                                          #
+#     This document is used to declear     #
+#  the types of relationships used by you  #
+#                                          #
+############################################
+#
+# A relationship consists of the name of the relationship 
+# and a whole number that is not lower than 0. 
+# It would be advisable to edit this file through the CharacterHub tool
+# but it is possible to edit it manually, just be careful to keep the format intact.
+#
+# Lines starting with # and lines with invalid format will not be processed as a relationship.
+# Lines should not contain spaces and the name and value should be separated by a colon.
+# Lines are separated by a windows newline. (\r\n)
+#
+# !Only edit this file manually when the CharacterHub is not running!
+#
+# Important: 
+# Keep your relationship numbers constant!
+# e.g: If Family is 0, Friend is 1 and Pet is 2
+# if you edit this file and remove Friend, 
+# don't set pet to 1, if you don't want 
+# your friends to turn into your pets!
+#
+# Format:
+# Relationship_type:value
+#
+# Example:
+# Childhood_friend:2
+# 
+Family:0
+Friend:1
+Pet:2
+Enemy:3
